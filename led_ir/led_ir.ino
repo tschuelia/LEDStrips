@@ -31,7 +31,6 @@ void toggleLed() {
 void setup() {
   pinMode(8, INPUT);
   pinMode(7, OUTPUT);
-  //pinMode(10, OUTPUT);
   Serial.begin(9600);
 }
 
